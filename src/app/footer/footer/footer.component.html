@@ -1,0 +1,98 @@
+<div class="vv-footer-mobile row" *ngIf="getIsMobileResolution()">
+  <div class="col-12">
+    <a href="http://www/vvauban.com/" target="_blank">
+      Politiques de protection des données
+    </a>
+  </div>
+  <hr class="clearfix w-100 ">
+  <div class="col-12">
+    <a href="http://www/vvauban.com/" target="_blank">
+      Cookies
+    </a>
+  </div>
+  <hr class="clearfix w-100 ">
+  <div class="col-12">
+    <a href="http://www/vvauban.com/mentions-legales" target="_blank">
+      Mentions légales et CGU
+    </a>
+  </div>
+  <hr class="clearfix w-100 ">
+  <div class="col-12">
+    <br>
+  </div>
+  <hr class="clearfix w-100 ">
+  <div class="col-12 mb-3">
+    <a href="http://www/vvauban.com/" target="_blank">
+      Vincent VAUBAN - Tous droits réservés
+    </a>
+  </div>
+</div>
+
+<div class="vv-footer-desktop row text-center" *ngIf="getIsDesktopResolution()">
+  <hr class="clearfix w-100">
+  <div class="col-4">
+    <a href="http://www/vvauban.com/" target="_blank">
+      Politiques de protection des données
+    </a>
+  </div>
+  <div class="col-1">
+    <a href="http://www/vvauban.com/" target="_blank">
+      Cookies
+    </a>
+  </div>
+  <div class="col-3">
+    <a href="http://www/vvauban.com/mentions-legales" target="_blank">
+      Mentions légales et CGU
+    </a>
+  </div>
+  <div class="col-1">
+    <br>
+  </div>
+  <div class="col-3 mb-3">
+    <a href="http://www/vvauban.com/" target="_blank">
+      Vincent VAUBAN - Tous droits réservés
+    </a>
+  </div>
+</div>
+
+<div style="  background-color: #3b5998 ;  ">
+  <div class="vv-footer-max-desktop row text-center" *ngIf="getIsMaxDesktopResolution()">
+    <hr class="clearfix w-100">
+    <div class="col-4">
+      <a href="http://www/vvauban.com/" target="_blank">
+        Politiques de protection des données
+      </a>
+    </div>
+    <div class="col-1">
+      <a href="http://www/vvauban.com/" target="_blank">
+        Cookies
+      </a>
+    </div>
+    <div class="col-3">
+      <a href="http://www/vvauban.com/mentions-legales" target="_blank">
+        Mentions légales et CGU
+      </a>
+    </div>
+    <div class="col-1">
+      <br>
+    </div>
+    <div class="col-3 mb-3">
+      <a href="http://www/vvauban.com/" target="_blank">
+        Vincent VAUBAN - Tous droits réservés
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <a href="https://vvauban.com/"> vvauban.com</a>
+</div>
+<!-- Copyright -->
+
+
+
+<diV>height: {{scrHeight}}<br>width: {{scrWidth}}</diV>
+<div>Max resolution: {{ getIsMaxDesktopResolution() }}</div>
+<div>Desktop resolution: {{ getIsDesktopResolution() }}</div>
+<div>Mobile resolution: {{ getIsMobileResolution() }}</div>
